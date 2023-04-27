@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>index</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            #Elementor {
+                background-color: burlywood;
+                color: #fff;
+                text-align: center;
+                padding-top: 50px;
+            }
+
+            #Elementor h2,
+            #Elementor p {
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 30px;
+            }
+
+            .demo-img img {
+                width: 100%;
+            }
+
+            .items {
+                display: none;
+            }
+
+            @media screen and (min-width: 768px) {
+                #Elementor .container {
+                    width: 80%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+
+                #Elementor {
+                    position: relative;
+                }
+
+                .items {
+                    display: block;
+                }
+
+                .item {
+                    position: absolute;
+                }
+
+                .item img {
+                    width: 100%;
+                }
+
+                /* .item:nth-child(1) {
+                position: absolute;
+                top: 30%;
+                left: 6%;
+            }
+
+            .item:nth-child(2) {
+                position: absolute;
+                top: 45%;
+                right: 0%;
+            } */
+            }
+        </style>
+    </head>
+    <body>
+        <section id="Elementor">
+            <div class="container">
+                <h2>Elementor - Visual PageBuilder</h2>
+                <p>
+                    Using Petpuzzy – Pet Store WordPress Theme, you can
+                    customize and build any layout as you can imagine with the
+                    powerful drag & drop page builder – Elementor.
+                </p>
+                <div class="demo-img">
+                    <img
+                        src="./normann-imgs-main/section3/ldp_img-1-1.png"
+                        alt=""
+                    />
+                </div>
+
+                <div class="items">
+                    <div
+                        class="item"
+                        style="position: absolute; top: 10%; left: 0%"
+                    >
+                        <img
+                            src="./normann-imgs-main/section3/elementor_items/ldp_elemontor1.png"
+                            alt=""
+                        />
+                    </div>
+                    <div
+                        class="item"
+                        style="position: absolute; top: 30%; left: 0%"
+                    >
+                        <img
+                            src="./normann-imgs-main/section3/elementor_items/ldp_elemontor2.png"
+                            alt=""
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
